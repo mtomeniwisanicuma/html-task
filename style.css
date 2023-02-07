@@ -1,0 +1,117 @@
+*{
+
+margin:0;
+padding:0;
+font-family:'Roboto',sans-serif;
+}
+
+.container{
+width:100%;
+height:100%;
+background-position:center;
+background-size:cover;
+box-sizing:border-box;
+}
+.navbar{
+height:12px;
+display:flex;
+align-items:center;
+position:fixed;
+width:100%;
+height:60px;
+background:#003147;
+transition:0.2s;
+overflow:hidden;
+
+}
+
+.logo{
+width:50px;
+cursor:pointer;
+}
+.menu-icon{
+width:30px;
+cursor:pointer;
+}
+nav{
+
+  width:300px;
+flex:1;
+text-align:right;
+}
+nav ul li{
+list-style:none;
+display:inline-block;
+margin-left:60px;
+}
+ 
+nav ul li a{
+text-decoration:none;
+color:#fff;
+font-size:18px;
+}
+.row{
+display:flex;
+height:88%;
+align-items:center;
+}
+.col{
+flex-basis:50%;
+}
+h1{
+color:#000;
+font-size:100px;
+}
+p{
+color:#000;
+font-size:11px;
+line-height:15px;
+
+}
+button{
+width:200px;
+height:60px;
+color:#000;
+font-size:12px;
+background:#000;
+border:0;
+border-radius:20px;
+outline:none;
+margin-top:30px;
+}
+
+.card{
+width:20%;
+height:280px;
+display:inline-block;
+border-radius:10px;
+padding:15px 25px;
+box-sizing:border-box;
+cursor:pointer;
+margin:10px 15px;
+background-position:bottom;
+background-size:cover;
+transition:transform 0.5s;
+}
+.video-player{
+
+  width:98%;
+  height:20px;
+  position:absolute;
+  left:50%;
+  top:11%;
+  transform: translate(-50%,-50%);
+ 
+  }
+  
+  video:focus{
+  outline:none;
+  }
+  .card1{
+    width:70%;
+    
+    }
+    .card2{
+      border-radius: 60px;
+      background-image:url(wisani.jpg);
+      }
